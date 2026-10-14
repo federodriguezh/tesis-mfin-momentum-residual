@@ -1,0 +1,36 @@
+# Entornos virtuales locales
+.venv/
+.venv-*/
+venv/
+env/
+
+# Python y caches de herramientas
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Archivos temporales de Jupyter (los notebooks sí se versionan)
+.ipynb_checkpoints/
+
+# Resultados generados localmente
+/notebooks/outputs/
+
+# Configuración privada y credenciales
+.env
+.env.*
+!.env.example
+!.env.template
+credentials.json
+*.pem
+*.key
+
+# Archivos del sistema y temporales del editor
+.DS_Store
+._*
+*.swp
+*.swo
+*~
